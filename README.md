@@ -32,8 +32,12 @@ Then, in a second terminal, navigate to the `xv6-public` folder and run gdb with
 ```bash
 gdb -x .gdbinit
 ```
-If you type `c` or `continue` into gdb and hit enter, you should see xv6 running in the other terminal. (To run without GDB, simply run `make qemu-nox` in the `xv6-public` directory)
+If you type `c` or `continue` into gdb and hit enter, you should see xv6 running in the other terminal.
+
+To run without GDB, simply run `make qemu-nox` in the `xv6-public` directory.
+
+Now, you can run shell commands, such as `ls`, from `sh` in the terminal running xv6.
 
 ## Part 2: Exploring xv6
 
-syscall.h syscall.c forktest.c something or other lib.c
+
