@@ -36,8 +36,8 @@ If you type `c` or `continue` into gdb and hit enter, you should see xv6 running
 
 To run without GDB, simply run `make qemu-nox` in the `xv6-public` directory.
 
-Now, you can run shell commands, such as `ls`, from `sh` in the terminal running xv6.
+Now, you can run shell commands, such as `ls`, from `sh` in the terminal running xv6. Try some commands!
 
 ## Part 2: Exploring xv6
 
-
+In the `xv6-public` directory on Edlab, explore some of the files. What are some common included files? What are in these common files?
